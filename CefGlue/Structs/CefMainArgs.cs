@@ -16,7 +16,7 @@
 
         public CefMainArgs(string[] args)
         {
-            _module = Assembly.GetEntryAssembly().GetModules()[0];
+            _module = Assembly.GetExecutingAssembly().GetModules()[0];
             _args = args;
             _argcArgvBlock = IntPtr.Zero;
         }
