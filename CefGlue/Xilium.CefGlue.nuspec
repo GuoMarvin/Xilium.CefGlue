@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xilium.CefGlue</id>
+    <version>$version$</version>
+    <title>Xilium.CefGlue</title>
+    <authors>Xilium</authors>
+    <owners>Xilium</owners>
+    <licenseUrl>https://bitbucket.org/xilium/xilium.cefglue/wiki/Home</licenseUrl>
+    <projectUrl>https://bitbucket.org/xilium/xilium.cefglue</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xilium.CefGlue is a .NET/Mono binding for The Chromium Embedded Framework (CEF) by Marshall A. Greenblatt.</description>
+  </metadata>
+  <files>
+    <file src="bin\Release\Xilium.CefGlue.dll" target="lib\net45" />
+  </files>
+</package>
